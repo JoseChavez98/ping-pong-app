@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["DOM", "ES2019.Array"],
+    "jsx": "react-jsxdev",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": false,
+    "paths": {
+      "@/*": ["src/*"]
+    },
+		"strict": true,
+    "target": "es5",
+    "types": ["node"]
+	},
+	"include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

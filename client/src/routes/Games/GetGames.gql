@@ -1,0 +1,5 @@
+query GetGames($userId: Int, $completed: Boolean){
+  games(userId: $userId, completed: $completed){
+    id
+  }
+}
