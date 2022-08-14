@@ -16,7 +16,7 @@ let Games = [
       gender: 'Male'
     },
     winner_id: 1,
-    details: 'delectus aut autem',
+    details: 'Stage 1',
     completed: false
   },
   {
@@ -36,7 +36,7 @@ let Games = [
       gender: 'Male'
     },
     winner_id: 3,
-    details: 'delectus aut autem',
+    details: 'Stage 1',
     completed: true
   },
   {
@@ -56,7 +56,7 @@ let Games = [
       gender: 'Male'
     },
     winner_id: 3,
-    details: 'delectus aut autem',
+    details: 'Stage 2',
     completed: true
   },
   {
@@ -76,7 +76,7 @@ let Games = [
       gender: 'Male'
     },
     winner_id: 1,
-    details: 'delectus aut autem',
+    details: 'Semis',
     completed: true
   }
 ]
