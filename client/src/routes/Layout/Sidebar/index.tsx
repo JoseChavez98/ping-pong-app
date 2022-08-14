@@ -8,6 +8,7 @@ const Sidebar = () => {
   const bg = useColorModeValue('white', '#011627')
   return (
     <Stack
+      id="sidebar"
       direction={{ base: 'row', md: 'column' }}
       w={{ base: 'auto', md: 'full' }}
       bg={{ md: bg }}
