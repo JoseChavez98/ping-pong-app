@@ -1,0 +1,13 @@
+query GetGames {
+  games {
+    first_user {
+      ...UserItem
+    }
+    second_user {
+      ...UserItem
+    }
+    winner_id
+    details
+    completed
+  }
+}

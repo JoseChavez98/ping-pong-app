@@ -1,36 +1,84 @@
-const Games = [
-    {
-        "id": 1,
-        "firstUserId": 1,
-        "secondUserId": 2,
-        "winnerId": 1,
-        "details": "delectus aut autem",
-        "completed": true
+let Games = [
+  {
+    id: 1,
+    first_user: {
+      id: 1,
+      first_name: 'Babbie',
+      last_name: 'Veelers',
+      email: 'bveelers0@fc2.com',
+      gender: 'Female'
     },
-    {
-        "id": 2,
-        "firstUserId": 2,
-        "secondUserId": 3,
-        "winnerId": 3,
-        "details": "delectus aut autem",
-        "completed": true
+    second_user: {
+      id: 2,
+      first_name: 'Fairleigh',
+      last_name: 'Jedras',
+      email: 'fjedras1@diigo.com',
+      gender: 'Male'
     },
-    {
-        "id": 3,
-        "firstUserId": 3,
-        "secondUserId": 4,
-        "winnerId": 3,
-        "details": "delectus aut autem",
-        "completed": true
+    winner_id: 1,
+    details: 'delectus aut autem',
+    completed: false
+  },
+  {
+    id: 2,
+    first_user: {
+      id: 2,
+      first_name: 'Fairleigh',
+      last_name: 'Jedras',
+      email: 'fjedras1@diigo.com',
+      gender: 'Male'
     },
-    {
-        "id": 4,
-        "firstUserId": 1,
-        "secondUserId": 3,
-        "winnerId": 1,
-        "details": "delectus aut autem",
-        "completed": true
+    second_user: {
+      id: 3,
+      first_name: 'Lutero',
+      last_name: 'Symcox',
+      email: 'lsymcox2@fotki.com',
+      gender: 'Male'
     },
-];
+    winner_id: 3,
+    details: 'delectus aut autem',
+    completed: true
+  },
+  {
+    id: 3,
+    first_user: {
+      id: 3,
+      first_name: 'Lutero',
+      last_name: 'Symcox',
+      email: 'lsymcox2@fotki.com',
+      gender: 'Male'
+    },
+    second_user: {
+      id: 4,
+      first_name: 'Pyotr',
+      last_name: 'Kalinsky',
+      email: 'pkalinsky3@wp.com',
+      gender: 'Male'
+    },
+    winner_id: 3,
+    details: 'delectus aut autem',
+    completed: true
+  },
+  {
+    id: 4,
+    first_user: {
+      id: 1,
+      first_name: 'Babbie',
+      last_name: 'Veelers',
+      email: 'bveelers0@fc2.com',
+      gender: 'Female'
+    },
+    second_user: {
+      id: 3,
+      first_name: 'Lutero',
+      last_name: 'Symcox',
+      email: 'lsymcox2@fotki.com',
+      gender: 'Male'
+    },
+    winner_id: 1,
+    details: 'delectus aut autem',
+    completed: true
+  }
+]
 
-export default Games;
+export default Games

@@ -1,0 +1,23 @@
+mutation CreateGame(
+  $firstUserId: Int!
+  $secondUserId: Int!
+  $winnerId: Int!
+  $details: String!
+  $completed: Boolean!
+) {
+  gameCreate(
+    input: {
+      first_user_id: $firstUserId
+      second_user_id: $secondUserId
+      winner_id: $winnerId
+      details: $details
+      completed: $completed
+    }
+  ) {
+    game {
+      details
+      completed
+      winner_id
+    }
+  }
+}

@@ -1,25 +1,24 @@
 import { useRoutes } from 'react-router-dom'
 import { RouteObject } from 'react-router'
+import Layout from './Layout'
+import Games from './Games'
+import Players from './Players'
 
-import ROUTES from '@/routes/routes'
-
-
-import Agency from '@/routes/Agency'
-import Games from '@/routes/Games'
-import Players from '@/routes/Players'
+import ROUTES from './routes'
+import Dashboard from './Dashboard'
 
 const publicRoutes: RouteObject[] = [
-  // { path: ROUTES.players, element: <Home /> },
+  { path: ROUTES.basePath, element: <Dashboard /> },
   { path: ROUTES.players, element: <Players /> },
-  { path: ROUTES.games, element: <Games /> },
+  { path: ROUTES.games, element: <Games /> }
 ]
 
 const routes: RouteObject[] = [
   {
     path: ROUTES.basePath,
-    element: <Agency />,
-    children: [...publicRoutes],
-  },
+    element: <Layout />,
+    children: [...publicRoutes]
+  }
 ]
 
 const AppRouter = () => {
