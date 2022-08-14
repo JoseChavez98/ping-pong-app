@@ -10,7 +10,7 @@ Welcome, to serve the application locally, please follow the instructions:
 ## 2. Client
 0. Open new terminal
 1. Go to client directory
-2. use the following command `rm src/types/index.tsx && yarn graphql && yarn start`
+2. use the following command `rm src/types/index.tsx && yarn install && yarn graphql && yarn start`
 
 A new tab on your browser will automatically open. After that, enjoy.
 ## 3. Testing
